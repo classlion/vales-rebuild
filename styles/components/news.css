@@ -1,0 +1,67 @@
+.main-news {
+    position: relative;
+}
+
+.main-news-background {
+    z-index: -2;
+    position: absolute;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.main-news-background>img {
+    height: 100%;
+}
+
+.main-news {
+    height: 334px;
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+.main-news-content {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* side news */
+
+.side-news-image {
+    height: 91px;
+    width: 127px;
+}
+
+.side-news {
+    display: flex;
+    margin-bottom: 14px;
+}
+
+.side-news-body {
+    display: block;
+}
+
+.side-news-title {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 19px;
+}
+
+.side-news-description {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 19px;
+}
+
+.side-news-body {
+    padding-left: 12px;
+}

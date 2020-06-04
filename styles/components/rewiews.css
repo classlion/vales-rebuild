@@ -1,0 +1,36 @@
+.rewiews-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rewiews-body {
+    display: flex;
+}
+
+.rewiews-nav-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.rewiews-naw-item {
+    border: 1px solid white;
+    color: silver;
+    padding: 5px 10px;
+}
+
+.rewiews-nav-is-active {
+    border: 1px solid #FF7931;
+    padding: 5px 10px;
+    color: #FF7931
+}
+
+.arrow-right {
+    border-left: 2px solid silver;
+    color: silver;
+}
+
+.arrow-left {
+    border-right: 2px solid silver;
+    color: silver;
+}

@@ -1,0 +1,39 @@
+.button {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 16px;
+    color: white;
+    background-color: #151C22;
+    border: 2px solid #FF9A64;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 170px;
+    height: 47px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.button:hover {
+    color: #151C22;
+    background-color: silver;
+    text-decoration: none;
+}
+
+.article-button {
+    display: inline-block;
+    font-size: 10px;
+    line-height: 16px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 109px;
+    height: 31px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 5px;
+}

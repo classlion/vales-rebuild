@@ -1,0 +1,29 @@
+.footer {
+    background: #F7F7F7;
+    height: 250px;
+}
+
+.footer-title {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 37px;
+    letter-spacing: 1px;
+    color: #000000;
+    text-align: center;
+    padding-top: 26px;
+}
+
+.footer-hr {
+    color: silver;
+    opacity: 0.4;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.copyryght {
+    color: silver;
+    opacity: 0.4;
+    margin: 15px;
+    text-align: end;
+}

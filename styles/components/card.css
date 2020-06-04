@@ -1,0 +1,15 @@
+.card-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.card-description {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+.card-body {
+    width: 288px;
+    margin-bottom: 30px;
+}
