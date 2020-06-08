@@ -8,11 +8,9 @@
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
-    width: 170px;
-    height: 47px;
     margin: 0 auto;
     text-align: center;
-    padding-top: 15px;
+    padding: 11px 30px;
 }
 
 .button:hover {

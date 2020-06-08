@@ -1,6 +1,15 @@
 .aside-item {
-    width: 200px;
-    height: 200px;
+    width: 370px;
+    height: 479px;
+    position: relative;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-aside-item {
+    width: 288px;
+    height: 310px;
     position: relative;
     margin-bottom: 30px;
     display: flex;
@@ -33,4 +42,59 @@
 
 .light {
     color: #ffffff;
+}
+
+.aside {
+    display: none;
+}
+
+@media (min-width: 1200px) {
+    .aside {
+        display: inline-block;
+        margin: 0 auto;
+    }
+    .section-aside {
+        display: none;
+    }
+}
+
+@media (min-width: 576px) {
+    .section-aside-item {
+        width: 180px;
+        height: 310px;
+        position: relative;
+        margin-bottom: 30px;
+        display: block;
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 768px) {
+    .section-aside-item {
+        width: 230px;
+        height: 310px;
+        position: relative;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 922px) {
+    .section-aside-item {
+        width: 288px;
+        height: 310px;
+        position: relative;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 1200px) {
+    .section-aside-item {
+
+        display: none;
+
+    }
 }

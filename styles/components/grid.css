@@ -11,9 +11,12 @@
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    margin: -15px;
 }
 
-.row>.column {}
+.row>.column {
+    padding: 15px;
+}
 
 .row-large {
     margin: -50

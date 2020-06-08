@@ -5,7 +5,6 @@
 .main-news-background {
     z-index: -2;
     position: absolute;
-    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -38,18 +37,17 @@
 
 .side-news {
     display: flex;
-    margin-bottom: 14px;
 }
 
 .side-news-body {
-    display: block;
+    display: inline-block
 }
 
-.side-news-title {
+.side-news .side-news-title {
     font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: 900;
-    font-size: 14px;
+    font-size: 10px;
     font-weight: 900;
     line-height: 19px;
 }
