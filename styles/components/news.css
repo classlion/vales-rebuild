@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 .main-news {
     position: relative;
 }
@@ -17,14 +24,13 @@
 
 .main-news {
     height: 334px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
     align-items: flex-end;
     padding: 10px;
-}
-
-.main-news-content {
-    display: flex;
-    flex-direction: column;
 }
 
 
@@ -36,6 +42,8 @@
 }
 
 .side-news {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -47,8 +55,7 @@
     font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: 900;
-    font-size: 10px;
-    font-weight: 900;
+    font-size: 14px;
     line-height: 19px;
 }
 

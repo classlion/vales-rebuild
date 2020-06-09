@@ -1,7 +1,14 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @font-face {
     font-family: 'vales';
-    src: url('../../fonts/vales.eot?psdena');
-    src: url('../../fonts/vales.eot?psdena#iefix') format('embedded-opentype'), url('../../fonts/vales.ttf?psdena') format('truetype'), url('../../fonts/vales.woff?psdena') format('woff'), url('../../fonts/vales.svg?psdena#vales') format('svg');
+    src: url('../../fonts/vales.eot?kpkih5');
+    src: url('../../fonts/vales.eot?kpkih5#iefix') format('embedded-opentype'), url('../../fonts/vales.ttf?kpkih5') format('truetype'), url('../../fonts/vales.woff?kpkih5') format('woff'), url('../../fonts/vales.svg?kpkih5#vales') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -11,7 +18,7 @@
 [class*=" icon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'vales' !important;
-    speak: none;
+    speak: never;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
@@ -22,18 +29,18 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-arrow_right:before {
+.icon-arrow_right_sm:before {
     content: "\e900";
 }
 
-.icon-arrow_left:before {
+.icon-arrow_left_sm:before {
     content: "\e901";
 }
 
-.icon-arrow-right:before {
+.icon-arrow-right_lg:before {
     content: "\ea34";
 }
 
-.icon-arrow-left:before {
+.icon-arrow-left_lg:before {
     content: "\ea38";
 }

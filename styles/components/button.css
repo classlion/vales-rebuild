@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 .button {
     display: inline-block;
     font-size: 12px;
@@ -15,8 +22,9 @@
 
 .button:hover {
     color: #151C22;
-    background-color: silver;
+    background-color: #FF9A64;
     text-decoration: none;
+    border: 2px solid black;
 }
 
 .article-button {

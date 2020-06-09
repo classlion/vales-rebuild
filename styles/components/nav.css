@@ -1,13 +1,23 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 .nav {
     display: none;
 }
 
 @media (min-width: 960px) {
     .nav {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         list-style: none;
         padding-left: 0;
         margin-right: 10px;
+        -ms-flex-pack: distribute;
         justify-content: space-around;
         font-size: 15px;
         font-family: 'Raleway', sans-serif;
