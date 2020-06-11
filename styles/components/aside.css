@@ -8,12 +8,15 @@
 .aside-item {
     height: 479px;
     position: relative;
-    margin-bottom: 30px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
     justify-content: space-around;
+}
+
+.aside-item-next {
+    margin-top: 30px;
 }
 
 .bottom-aside {

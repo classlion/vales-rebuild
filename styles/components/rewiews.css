@@ -5,16 +5,6 @@
 * Browsers: last 4 version
 */
 
-.rewiews-nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-    margin: 0 auto;
-    padding-bottom: ;
-}
-
 .rewiews-body {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -27,6 +17,8 @@
     display: flex;
     list-style: none;
     padding: 0;
+    padding-bottom: 50px;
+    justify-content: center;
 }
 
 .rewiews-naw-item {

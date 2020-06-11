@@ -33,10 +33,6 @@
 
 /* section third */
 
-.section-third {
-    margin: 0 -20px;
-}
-
 .section-third-items {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -46,6 +42,7 @@
     -ms-flex-align: center;
     align-items: center;
     text-align: center;
+    vertical-align: middle;
 }
 
 .section-third {
@@ -58,6 +55,7 @@
     justify-content: center;
     -ms-flex-line-pack: center;
     align-content: center;
+    margin: 0 -20px;
 }
 
 .section-third-title {
@@ -69,7 +67,6 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-right: 43px;
 }
 
 .section-third-in-greed {
@@ -92,6 +89,10 @@
     .section-third {
         margin: 0;
     }
+    .section-third-title {
+        margin-right: 43px;
+        margin-top: 10px;
+    }
 }
 
 .main {
@@ -102,7 +103,7 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    height: 100;
+    height: 100%;
 }
 
 .main .main-body {
